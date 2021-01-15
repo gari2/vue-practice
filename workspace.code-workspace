@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\Downloads\\vuejsのサンプル\\vue-app"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "vue0113"
+	}
+}
