@@ -1,0 +1,21 @@
+/*キーフレームを定義*/
+@keyframes slide-in{
+    0% {
+        transform: translateX(100%);
+    }
+    10% {
+        transform: translateX(20%);
+    }
+    0% {
+        transform: translateX(0);
+    }
+}
+
+/*アニメーション全体の設定*/
+.v-enter-active{
+    animation: slide-in 1.5s reverse;
+}
+
+.v-leave-active {
+    animation: slide-in 1.5s reverse;
+}
