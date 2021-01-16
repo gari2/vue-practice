@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>Vue.js</title>
+<link rel="stylesheet" href="css/anim_name.css" />
+</head>
+<body>
+<div id="app">
+    <input type="button" value="表示/非表示" v-on:click="onclick" />
+    <transition
+    enter-active-class="animated rollIn"
+    enter-active-class="animated rollOut"
+    >
+    <div id="panel" v-show="flag">WINGSプロジェクトで一緒に執筆の仕事をしてみませんか？</div>
+    </transition>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+<script src="js/anim_js.js"></script>
+</body>
+</html>
