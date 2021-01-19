@@ -8,12 +8,11 @@
 
 <body>
     <div id="app">
-    <textarea v-model="memo" cols="30" rows="10"></textarea>
-        <div>{{ memo | truncate }}</div>
-        <div>{{ memo | truncate(20, '～') }}</div>
+        <div>元の数字：{{ value }}</div>
+        <div>加工後：{{ value | abs | number(2) }}</div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
-    <script src="js/filter_param.js"></script>
+    <script src="js/filter_multi.js"></script>
 </body>
 
 </html>
